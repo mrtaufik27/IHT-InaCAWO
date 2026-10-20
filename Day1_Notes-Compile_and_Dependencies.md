@@ -9,7 +9,7 @@ Sebelum memulai instalasi dan simulasi, pastikan koneksi SSH ke HPC telah terkon
 ### Generate SSH Key
 Jalankan perintah berikut pada terminal lokal untuk membuat pasangan kunci *public/private* (ed25519):
 ```bash
-ssh-keygen -t ed25519 -C "mahisaajy@gmail.com"
+ssh-keygen -t ed25519 -C "rifki.taufik@bmkg.go.id"
 ```
 *   Ikuti instruksi di layar (tekan Enter untuk menyimpan di *path default* dan lewati *passphrase* jika tidak diperlukan).
 *   Kunci *public* (`id_ed25519.pub`) akan di-generate beserta gambar *randomart* SHA256.
